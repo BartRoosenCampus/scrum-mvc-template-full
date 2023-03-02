@@ -1,0 +1,67 @@
+.header {
+    padding: .5em 2em;
+}
+
+.navbar {
+    background-color: #40ADA3;
+    color: whitesmoke;
+}
+
+.container {
+    /*background-color: whitesmoke;*/
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 1em;
+}
+
+.header, .footer {
+    background-color: #2D89CC;
+    color: whitesmoke;
+}
+
+.right {
+    text-align: right;
+}
+
+.login-form, .add-user-form {
+    width: 30%;
+    margin: 3em auto 0 auto;
+}
+
+form > div {
+    margin: .3em 0;
+}
+
+.user-area {
+    float: right;
+}
+
+.messenger {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.closeMessenger {
+    float: right;
+}
+
+nav > ul > li {
+    display: inline-block;
+    background-color: transparent;
+    padding: .5em;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #0a53be;
+}

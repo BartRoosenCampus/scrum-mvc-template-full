@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Mail</title>
+    <style>
+        h1 {
+            background-color: #2c2a2a;
+            color: whitesmoke;
+            padding: .5em;
+            margin: 0;
+            border: 1px solid #2c2a2a;
+        }
+        .mail-body {
+            padding: 1em;
+            background-color: #f8f8fa;
+            margin-top: 0;
+            border: 1px solid #2c2a2a;
+        }
+    </style>
+</head>
+<body>
+<h1>%s</h1>
+<div class="mail-body">
+    <p>Hallo %s,</p>
+    <p>
+        Thank you for creating your account.
+        The next step is to verify your email.
+        It is easy! Just click the link below, and you are done.
+    </p>
+    <p>
+        <a href="http://localhost/projects/Repositories/05_Andere/mvc-template/homeController.php?vc=%s">Verify my email</a>
+    </p>
+    <p>mvg</p>
+    <p>mvc-template</p>
+</div>
+</body>
+</html>

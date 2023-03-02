@@ -1,0 +1,3 @@
+connectionString: mysql:host=localhost;dbname=databaseName;charset=utf8
+userName:
+pass:
