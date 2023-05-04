@@ -7,3 +7,8 @@
   Order Allow,Deny
   Deny from all
 </Files>
+
+<Files "database.sql">
+  Order Allow,Deny
+  Deny from all
+</Files>
